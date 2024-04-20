@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 //setting up for statoc files
 app.use(express.static(path.join(process.cwd(),'public')));
 
-//setting up my ejs
+//set up ejs 
 app.set('view engine' , 'ejs');
 app.set('views' , './views');
 
